@@ -1,7 +1,8 @@
 
 
 function hello(whom) {
-    console.log(`hello ${whom}`);
+    console.log(`hello ${whom}.`);
 }
 
-hello(`Kyle`);
+// 1. Export the hello function
+module.exports = hello;
