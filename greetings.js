@@ -14,7 +14,7 @@ function goodbye(whom) {
 
 // 1. Export the hello function
 module.exports = {
-    hello,  // equivalent to hello: hello
-    // hello: salutations,
+    // hello,  // equivalent to hello: hello
+    hello: salutations,
     goodbye // equivalent to goodbye: goodbye
 };
